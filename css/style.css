@@ -1,16 +1,29 @@
 
-.banner {
-    background-image: url(../images/02-hero-bg.jpg);
-    background-size: cover;
-    opacity: 0.9;
-    height: 300px;
-    color: white;
+.container{
+    justify-content: space-around;
+}
+
+.jumbotron {
+    height: 400px;
 }
 
 .banner-container{
     background-color:aqua;
 }
 .row{
-    justify-content: right;
-    padding-top: 20px;
+    justify-content: space-around;
+    padding: 0px auto;
+}
+
+.work {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+hr{
+    padding-bottom: 20px;
+}
+
+hr[1]{
+    padding-top: 20px
 }
