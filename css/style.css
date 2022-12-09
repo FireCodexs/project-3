@@ -1,4 +1,6 @@
-
+body{
+    background-color: antiquewhite;
+}
 .container{
     justify-content: space-around;
 }
@@ -24,6 +26,15 @@ hr{
     padding-bottom: 20px;
 }
 
-hr[1]{
-    padding-top: 20px
+.aboutme{
+    text-align: center;
+    padding: 0px 100px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.btn:hover{
+    box-shadow: 5px 10px;
 }
